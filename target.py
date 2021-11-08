@@ -18,10 +18,7 @@ def updateAB(fileName, originalText, newText):
 
 def getNewSlot():
 	#OUTPUT AND ASK QUESTION
-	print("++++++++")
-	print("Current TARGET_SLOT: ") 
-	print(TARGET_SLOT)
-	print("++++++++")
+	print(f"++++++++\nCurrent TARGET_SLOT: \n{TARGET_SLOT}\n++++++++\n")
 	NEWSLOT = input("Enter new SLOT TARGET: ")
 	return NEWSLOT
  
